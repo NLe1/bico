@@ -4,7 +4,7 @@ body {
 
 .navbar {
   height: 35vh;
-  background: url("/images/navbar1.jpg");
+  background: url("../images/navbar.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
@@ -14,7 +14,7 @@ body {
 
 .navbarsp {
   height: 35vh;
-  background: url("/images/background2.jpg");
+  background: url("../images/background2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -24,7 +24,7 @@ body {
 
 .portA {
   height: 100vh;
-  background: url("/images/background.jpg");
+  background: url("../images/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -32,7 +32,7 @@ body {
 }
 
 .portB {
-  background: url("/images/background2.jpg");
+  background: url("../images/background2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
