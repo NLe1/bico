@@ -1,0 +1,398 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.navbar {
+  height: 35vh;
+  background: url("/images/navbar1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  padding: 0;
+}
+
+.navbarsp {
+  height: 35vh;
+  background: url("/images/background2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding: 0;
+}
+
+.portA {
+  height: 100vh;
+  background: url("/images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 0;
+}
+
+.portB {
+  background: url("/images/background2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 0;
+}
+
+.valueContainer {
+  margin: 0;
+  color: white;
+  text-align: center;
+  height: auto;
+  /* position: relative; */
+}
+
+.myContainer {
+  padding: 0 5vw 0 5vw;
+}
+
+.innerValue {
+  /* position: absolute; */
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  margin: auto;
+  width: 20vh;
+  justify-content: center;
+}
+
+.portC {
+  background: linear-gradient(45deg, #050505, #3a556f, #53794f);
+  background-repeat: no-repeat;
+  background-size: center;
+  position: relative;
+  padding: 0;
+}
+
+.itemProduct {
+  background-color: #397b33;
+  height: 22vh;
+  width: 22vh;
+  border-radius: 100%;
+  text-align: center;
+  margin: 20px;
+  text-decoration: none;
+}
+
+.checkButton {
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  border: 1px solid #c3c3c3;
+  border-radius: 50%;
+  margin: 5px;
+}
+
+.itemProduct a:hover {
+  text-decoration: none;
+}
+
+.container-overlay {
+  background: #000;
+  opacity: 0.6;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.d1 {
+  color: #397b33;
+  font-weight: 900;
+}
+
+.current {
+  color: #397b33;
+  text-shadow: 1px 1px #397b33;
+  font-weight: bolder;
+}
+
+span {
+  display: inline-block;
+}
+
+.logo {
+  padding: 1vh 1vw 0 0;
+  height: auto;
+  width: 15vw;
+}
+
+.dropDownBtn {
+  padding: 2vh 2vh 0 0;
+  height: auto;
+  width: 8vw;
+}
+
+.myBtnPrimary {
+  background-color: #397b33;
+  border: none;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 25px;
+  margin: 2px 2px;
+}
+
+.myBtnSecondary {
+  background-color: #234221;
+  border: none;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 25px;
+  margin: 2px 2px;
+}
+
+.myBtnThird {
+  background-color: #002e00;
+  border: none;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 25px;
+  margin: 2px 2px;
+}
+
+.myBtnPrimary:hover,
+.myBtnSecondary:hover,
+.myBtnThird:hover {
+  background-color: #ed141e;
+}
+
+.textHighLight {
+  text-shadow: 3px 3px 0px #397b33, 5px 5px 0px #457940, 0 0 10px #678a64;
+  color: white;
+}
+
+.sideline {
+  padding: 20px;
+  text-align: left;
+}
+
+.sideline ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#chitietblock {
+  display: none;
+}
+
+.row {
+  padding: 0;
+  margin: 0;
+}
+
+.box {
+  padding: 20px;
+  margin: 0.5px;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+  border-color: #f4f4f4;
+}
+
+.groupTitle {
+  position: relative;
+}
+
+.groupTitle h1 {
+  color: white;
+  font-size: 8vh;
+  font-weight: 900;
+  line-height: 10vh;
+}
+
+.hb {
+  border-bottom: 2px solid green;
+  width: 100;
+}
+
+.header {
+  color: white;
+  font-size: 2vh;
+  font-weight: 900;
+  line-height: 3vh;
+  position: absolute;
+  bottom: 2px;
+}
+
+.groupSubTitle {
+  margin-top: 5vh;
+  color: #f3f3f3;
+  padding: 0;
+}
+
+.groupSubTitle p {
+  font-size: 2vh;
+  font-weight: bolder;
+  line-height: 3vh;
+  position: relative;
+}
+
+.formAsk {
+  background-color: rgba(255, 255, 255, 0.77);
+  border-radius: 40px;
+}
+
+.input {
+  width: 85%;
+  justify-self: center;
+  margin-bottom: 2vh;
+  height: 5vh;
+  border: none;
+  border-radius: 40px;
+  padding-left: 20px;
+}
+
+.inputAbout {
+  width: 85%;
+  justify-self: center;
+  margin-bottom: 2vh;
+  height: 5vh;
+  border: solid 1px black;
+  padding-left: 20px;
+}
+
+.groupBtn {
+  margin-top: 5vh;
+  position: relative;
+  top: 2em;
+}
+@media (min-width: 576px) {
+  .groupTitle h1 {
+    font-size: 11vh;
+    line-height: 13vh;
+  }
+
+  .groupSubTitle p {
+    font-size: 3vh;
+    line-height: 4vh;
+  }
+
+  .logo {
+    width: 12vh;
+  }
+
+  .dropDownBtn {
+    width: 6vh;
+  }
+}
+
+/* The Overlay (background) */
+.overlay {
+  /* Height & width depends on how you want to reveal the overlay (see JS below) */
+  height: 0;
+  width: 100%;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  background-color: rgb(0, 0, 0); /* Black fallback color */
+  background-color: rgba(0, 0, 0, 0.9); /* Black w/opacity */
+  overflow-y: hidden; /* Disable horizontal scroll */
+  transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+/* Position the content inside the overlay */
+.overlay-content {
+  position: relative;
+  top: 25%; /* 25% from the top */
+  width: 100%; /* 100% width */
+  text-align: center; /* Centered text/links */
+  margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+}
+
+.footer {
+  padding-top: 15px;
+  background-color: aliceblue;
+}
+
+/* The navigation links inside the overlay */
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block; /* Display block instead of inline */
+  transition: 0.3s; /* Transition effects on hover (color) */
+}
+
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover,
+.overlay a:focus {
+  color: #f1f1f1;
+}
+
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-height: 450px) {
+  .overlay {
+    overflow-y: auto;
+  }
+  .overlay a {
+    font-size: 20px;
+  }
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.product {
+  background-color: #d8e3e8;
+  padding: 10px;
+  margin-top: 2px;
+  box-shadow: 3px 2px 2px #888888;
+}
+
+.chosen,
+.accordion:hover {
+  background-color: #ccc;
+}
+
+.accordion:after {
+  content: "\002B";
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.chosen:after {
+  content: "\2212";
+}
+
+.panel {
+  margin: 3px;
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}

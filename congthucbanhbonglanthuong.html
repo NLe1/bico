@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+  <link rel="stylesheet" type="text/css" href="/css/style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <title>BICO VIETNAM</title>
+</head>
+
+<body>
+  <!--START LANDING PAGE PORTION-->
+  <div class="navbarsp container-fluid">
+    <div class="container-overlay"></div>
+
+    <div class="myContainer">
+      <!--NAVBAR-->
+      <div style="position: absolute; top: 0;width:90%;padding-top: 10px;">
+        <a href="/">
+          <img src="/images/logo.png" class="logo" alt="" />
+        </a>
+        <span onclick="toggleNav()" style="float:right;">
+          <img src="/images/hbgButton.png" class="dropDownBtn" alt="" />
+        </span>
+        <div id="myNav" class="overlay">
+          <!-- Button to close the overlay navigation -->
+          <a href="javascript:void(0)" class="closebtn" onclick="toggleNav()">&times;</a>
+
+          <!-- Overlay content -->
+          <div class="overlay-content">
+            <a href="/">TRANG CHỦ</a>
+            <a href="/phugia.html">SẢN PHẨM</a>
+            <a href="/congthucbanhmilat.html">CÔNG THỨC</a>
+            <a href="/vechungtoi.html">VỀ CHÚNG TÔI</a>
+            <a href="/lienhe.html">LIÊN HỆ</a>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="header">
+        <h1>
+          CÔNG THỨC
+        </h1>
+        <h6>
+          BÁNH BÔNG LAN THƯỜNG - DÙNG GEL
+        </h6>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid mt-3" style="padding: 0">
+
+    <div class="myContainer">
+
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="/">TRANG CHỦ</a></li>
+          <li class="breadcrumb-item active" aria-current="page">CÔNG THỨC BÁNH BÔNG LAN THƯỜNG</li>
+        </ol>
+      </nav>
+
+      <div class="row" style="margin:0;padding:0;">
+
+        <div class="box col-12 col-md-9 mb-2">
+          <table class="table" style="padding:0;margin:0;">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col">NGUYÊN LIỆU</th>
+                <th scope="col">CÔNG THỨC 1</th>
+                <th scope="col">CÔNG THỨC 2</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>TRỨNG TƯƠI</td>
+                <td>500G</td>
+                <td>750G</td>
+              </tr>
+              <tr class="product" id="chatondinh" onclick="onClickHandler(this)" onmouseover="onMouseOverHandler(this)"
+                onmousedown="onMouseDownHandler(this)" onmouseup="onMouseUpHandler(this)"
+                onmouseout="onMouseUpHandler(this)">
+                <td>CHẤT ỔN ĐỊNH BÁNH BICO</td>
+                <td>40G</td>
+                <td>40G</td>
+              </tr>
+              <tr>
+                <td>DẦU ĂN HOẶC BƠ MỀM</td>
+                <td>100G</td>
+                <td>100G</td>
+              </tr>
+              <tr class="product" id="bottronsan" onclick="onClickHandler(this)" onmouseover="onMouseOverHandler(this)"
+                onmousedown="onMouseDownHandler(this)" onmouseup="onMouseUpHandler(this)"
+                onmouseout="onMouseUpHandler(this)">
+                <td>BỘT TRỘN BÁNH BÔNG LAN BICO</td>
+                <td>1000</td>
+                <td>1000</td>
+              </tr>
+              <tr>
+                <td>NƯỚC</td>
+                <td>100G</td>
+                <td>100G</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h5 class="d1 current mt-3">
+            QUY TRÌNH / HƯỚNG DẪN
+          </h5>
+          <ul style="list-style-type: none;">
+            <li>
+              <span class="checkButton">
+                1
+              </span>
+              Cho tất cả nguyên liệu vào cối trộn (trừ dầu ăn).
+            </li>
+            <li>
+              <span class="checkButton">
+                2
+              </span>
+              Đánh trộn cho đến khi bung xốp, mịn và bóng (khoảng 5 - 7 phút).
+            </li>
+            <li>
+              <span class="checkButton">
+                3
+              </span>
+              Giảm tốc độ , cho dầu ăn vào, trộn đều trong 30 giây.
+            </li>
+            <li>
+              <span class="checkButton">
+                4
+              </span>
+              Nướng bánh ở nhiệt độ 170 - 180 độ C trong 20 - 30 phút tùy cỡ bánh.
+            </li>
+          </ul>
+
+        </div>
+        <div class="box col-12 sideline col-md-2 mb-2">
+          <h4 class="d1 mb-4">
+            CÁC CÔNG THỨC KHÁC
+          </h4>
+          <ul>
+            <li class="product" id="congthucbanhmilat" onmouseover="onMouseOverHandler(this)"
+              onmousedown="onMouseDownHandler(this)" onclick="onClickHandler(this)"
+              onmousedown="onMouseDownHandler(this)" onmouseup="onMouseUpHandler(this)"
+              onmouseout="onMouseUpHandler(this)">
+              <span>BÁNH MÌ LẠT</span>
+            </li>
+            <li class="product" id="congthucbanhsandwich" onmouseover="onMouseOverHandler(this)"
+              onmousedown="onMouseDownHandler(this)" onclick="onClickHandler(this)"
+              onmousedown="onMouseDownHandler(this)" onmouseup="onMouseUpHandler(this)"
+              onmouseout="onMouseUpHandler(this)">
+              <span>BÁNH SANDWICH</span>
+            </li>
+            <li class="product" id="congthucbanhmingot" onmouseover="onMouseOverHandler(this)"
+              onmousedown="onMouseDownHandler(this)" onclick="onClickHandler(this)"
+              onmousedown="onMouseDownHandler(this)" onmouseup="onMouseUpHandler(this)"
+              onmouseout="onMouseUpHandler(this)">
+              <span>BÁNH MÌ NGỌT</span>
+            </li>
+            <li class="product" id="congthucbanhbonglan" onmouseover="onMouseOverHandler(this)"
+              onmousedown="onMouseDownHandler(this)" onclick="onClickHandler(this)"
+              onmousedown="onMouseDownHandler(this)" onmouseup="onMouseUpHandler(this)"
+              onmouseout="onMouseUpHandler(this)">
+              <span>BÁNH BÔNG LAN</span>
+            </li>
+            <li class="product" id="congthucbanhbonglancuon" onmouseover="onMouseOverHandler(this)"
+              onmousedown="onMouseDownHandler(this)" onclick="onClickHandler(this)"
+              onmousedown="onMouseDownHandler(this)" onmouseup="onMouseUpHandler(this)"
+              onmouseout="onMouseUpHandler(this)">
+              <span>BÁNH BÔNG LAN CUỐN</span>
+            </li>
+            <li class="product current" id="congthucbanhbonglanthuong" onmouseover="onMouseOverHandler(this)"
+              onmousedown="onMouseDownHandler(this)" onclick="onClickHandler(this)"
+              onmousedown="onMouseDownHandler(this)" onmouseup="onMouseUpHandler(this)"
+              onmouseout="onMouseUpHandler(this)">
+              <span>BÁNH BÔNG LAN THƯỜNG</span>
+            </li>
+            <li class="product" id="congthucbanhbonglanmoi" onmouseover="onMouseOverHandler(this)"
+              onmousedown="onMouseDownHandler(this)" onclick="onClickHandler(this)"
+              onmousedown="onMouseDownHandler(this)" onmouseup="onMouseUpHandler(this)"
+              onmouseout="onMouseUpHandler(this)">
+              <span>BÁNH BÔNG LAN MỚI (KHÔNG DÙNG GEL)</span>
+            </li>
+            <li class="product" id="congthucbanhpizza" onmouseover="onMouseOverHandler(this)"
+              onmousedown="onMouseDownHandler(this)" onclick="onClickHandler(this)"
+              onmousedown="onMouseDownHandler(this)" onmouseup="onMouseUpHandler(this)"
+              onmouseout="onMouseUpHandler(this)">
+              <span>BÁNH PIZZA</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer myContainer">
+      <div class="row">
+        <div class="col">
+          <h5>
+            Liên hệ / Contact
+          </h5>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-12">
+          <p>Địa chỉ: 637H Bùi Thị Điệt, ấp Bàu Cạp, X.Nhuận Đức, H.Củ Chi, Tp.HCM, Việt Nam</p>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+          <p>Số điện thoại: (+84) 08 3860 8728</p>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+          <p>Số Fax: (+84) 08 3717 7452</p>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+          <p>Email: <a href="mailto:bico.dieubui@gmail.com">bico.dieubui@gmail.com</a></p>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+          <button class="btn-info" id="lienhe" onclick="onClickHandler(this)">Chi tiết hơn ? </button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-12">
+          <p>Address: 637H Bui Thi Diet, ap Bau Cap, Nhuan Duc Village, Cu Chi District , Ho Chi Minh City, Vietnam</p>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+          <p>Phone number: (+84) 08 3860 8728</p>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+          <p>Fax number: (+84) 08 3717 7452</p>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+          <p>Email: <a href="mailto:bico.dieubui@gmail.com">bico.dieubui@gmail.com</a></p>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+          <button class="btn-info" id="lienhe" onclick="onClickHandler(this)">More details ? </button>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+          <p>
+            COPYRIGHT &copy; BICO2020 |
+            <span><a href="https://www.facebook.com/BICOVN/"><img src="/images/facebook-logo.png" width="25px"
+                  height="25px" /></a></span>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+    <script src="/javascript/script.js"></script>
+</body>
+
+</html>

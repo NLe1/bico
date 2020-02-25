@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>BICO VIETNAM</title>
+  </head>
+  <body>
+    <!--START LANDING PAGE PORTION-->
+    <div class="navbar container-fluid">
+      <div class="container-overlay"></div>
+
+      <div class="myContainer" >
+        <!--NAVBAR-->
+        <div style="position: absolute; top: 0;width:90%;padding-top: 10px;">
+          <a href="/">
+            <img src="/images/logo.png" class="logo" alt="" />
+          </a>
+          <span onclick="toggleNav()" style="float:right;">
+            <img src="/images/hbgButton.png" class="dropDownBtn" alt="" />
+          </span>
+          <div id="myNav" class="overlay">
+            <!-- Button to close the overlay navigation -->
+            <a href="javascript:void(0)" class="closebtn" onclick="toggleNav()"
+              >&times;</a
+            >
+
+            <!-- Overlay content -->
+            <div class="overlay-content">
+              <a href="/">TRANG CHỦ</a>
+              <a href="/phugia.html">SẢN PHẨM</a>
+              <a href="/congthucbanhmilat.html">CÔNG THỨC</a>
+              <a href="/vechungtoi.html">VỀ CHÚNG TÔI</a>
+              <a href="/lienhe.html">LIÊN HỆ</a>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="header">
+          <h1>
+            SẢN PHẨM
+          </h1>
+          <h6>
+            CHẤT ỔN ĐỊNH
+          </h6>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid mt-3" style="padding: 0">
+      
+      <div class="myContainer">
+  
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/">TRANG CHỦ</a></li>
+            <li class="breadcrumb-item active" aria-current="page">BỘT TRỘN SẴN</li>
+          </ol>
+        </nav>
+ 
+        <div class="row" style="margin:0;padding:0;">
+          <div class="box sideline col-12 col-md-2 mb-2">
+              <h5 class="d1">
+                PHÂN LOẠI SẢN PHẨM
+              </h5>
+              <ul>
+                <li id="phugia" onclick="onClickHandler(this)"  onmouseover="onMouseOverHandler(this)" onmousedown="onMouseDownHandler(this)" onmouseout="onMouseUpHandler(this)" onmouseup="onMouseUpHandler(this)" class="product" ><span>PHỤ GIA BÁNH MỲ</span></li>
+                <li id="menkho" onclick="onClickHandler(this)"  onmouseover="onMouseOverHandler(this)" onmousedown="onMouseDownHandler(this)" onmouseout="onMouseUpHandler(this)" onmouseup="onMouseUpHandler(this)" class="product" ><span>MEN KHÔ BÁNH MỲ</span></li>
+                <li id="botnoi" onclick="onClickHandler(this)"  onmouseover="onMouseOverHandler(this)" onmousedown="onMouseDownHandler(this)" onmouseout="onMouseUpHandler(this)" onmouseup="onMouseUpHandler(this)" class="product" >BỘT NỔI</li>
+                <li id="chatondinh" onclick="onClickHandler(this)"  onmouseover="onMouseOverHandler(this)" onmousedown="onMouseDownHandler(this)" onmouseout="onMouseUpHandler(this)" onmouseup="onMouseUpHandler(this)" class="product current"><span>CHẤT ỔN ĐỊNH BÁNH</span></li>
+                <li id="huonglieu" onclick="onClickHandler(this)"  onmouseover="onMouseOverHandler(this)" onmousedown="onMouseDownHandler(this)" onmouseout="onMouseUpHandler(this)" onmouseup="onMouseUpHandler(this)" class="product"><span>HƯƠNG LIỆU</span></li>
+                <li id="bottronsan" onclick="onClickHandler(this)"  onmouseover="onMouseOverHandler(this)" onmousedown="onMouseDownHandler(this)" onmouseout="onMouseUpHandler(this)" onmouseup="onMouseUpHandler(this)" class="product" ><span>BỘT TRỘN SẴN</span></li>
+                <li id="dauthoakhuon" onclick="onClickHandler(this)"  onmouseover="onMouseOverHandler(this)" onmousedown="onMouseDownHandler(this)" onmouseout="onMouseUpHandler(this)" onmouseup="onMouseUpHandler(this)" class="product"><span>DẦU THOA KHUÔN</span></li>
+                <li id="chatlammembanh" onclick="onClickHandler(this)"  onmouseover="onMouseOverHandler(this)" onmousedown="onMouseDownHandler(this)" onmouseout="onMouseUpHandler(this)" onmouseup="onMouseUpHandler(this)" class="product" ><span>CHẤT LÀM MỀM BÁNH</span></li>
+              </ul>
+          </div>
+          <div class="box col-12 col-md-7 mb-2">
+              <h5 class="d1 current">
+                GIỚI THIỆU
+              </h5>
+              <h6 class="d1">
+                ƯU ĐIỂM NỔI TRỘI CỦA CHẤT ỔN ĐỊNH DO CÔNG TY BICO SẢN XUẤT:
+              </h6>
+              <ul style="list-style-type: none;">
+                <li> 
+                  <i class="fa fa-check"></i>
+                  Chất ổn định bánh nhãn hiệu Bico là một sự kết hợp hoàn hảo giữa các chất nhũ hóa và chất ổn định, có vai trò tạo xốp, tạo kết cấu mềm mịn, giữ ẩm và tươi lâu cho các sản phẩm bánh bông lan chén, bông lan ổ, bông lan cuốn, bánh bao, bánh trung thu, và các loại bánh ngọt khác.
+                </li>
+                <li>
+                  <i class="fa fa-check"></i>
+                  Sản phẩm có trạng thái Gel, dính và trong suốt. Màu vàng trứng, thể hiện sự thay thế một phần vai trò của nguyên liệu trứng trong công thức làm bánh.
+                </li>
+                <li>
+                  <i class="fa fa-check"></i>
+                  Tỷ lệ sử dụng: từ 50 gam – 80 gam cho mỗi kilogam bột mì.
+                </li>
+                </ul>
+                <h5 class="d1 current">
+                  CÁC NHÃN HIỆU CHẤT ỔN ĐỊNH DO BICO SẢN XUẤT:
+                </h5>
+                <button class="accordion">CHẤT ỔN ĐỊNH BÁNH BICO (CÓ MÀU)
+                </button>
+  
+                <div class="panel">
+                  <img src="/images/chatondinh1.jpg" width="100%" />
+                </div>
+
+                <button class="accordion">CHẤT ỔN ĐỊNH BÁNH BICO (KHÔNG MÀU)
+                </button>
+  
+                <div class="panel">
+                  <img src="/images/chatondinh2.jpg" width="100%"/>
+                </div>
+          </div>
+          <div class="box col-12 sideline col-md-2 mb-2">
+            <h5 class="d1">
+              CÔNG THỨC DÙNG CHẤT ỔN ĐỊNH BICO
+            </h5>
+            <ul>
+              <li id="congthucbanhbonglanthuong" onclick="onClickHandler(this)"  onmouseover="onMouseOverHandler(this)" onmousedown="onMouseDownHandler(this)" onmouseout="onMouseUpHandler(this)" onmouseup="onMouseUpHandler(this)" class="product" >
+                <span>BÁNH BÔNG LAN THƯỜNG DÙNG GEL</span>
+              </li>
+              <li id="congthucbanhbonglancuon" onclick="onClickHandler(this)"  onmouseover="onMouseOverHandler(this)" onmousedown="onMouseDownHandler(this)" onmouseout="onMouseUpHandler(this)" onmouseup="onMouseUpHandler(this)" class="product" >
+                <span>BÁNH BÔNG LAN CUỐN</span>
+              </li>
+              <li id="congthucbanhbonglan" onclick="onClickHandler(this)"  onmouseover="onMouseOverHandler(this)" onmousedown="onMouseDownHandler(this)" onmouseout="onMouseUpHandler(this)" onmouseup="onMouseUpHandler(this)" class="product" >
+                <span>BÁNH BÔNG LAN</span>
+              </li>
+            </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer myContainer">
+      <div class="row">
+        <div class="col">
+          <h5>
+            Liên hệ / Contact
+          </h5>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-12">
+          <p>Địa chỉ: 637H Bùi Thị Điệt, ấp Bàu Cạp, X.Nhuận Đức, H.Củ Chi, Tp.HCM, Việt Nam</p>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+          <p>Số điện thoại: (+84) 08 3860 8728</p>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+          <p>Số Fax: (+84) 08 3717 7452</p>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+          <p>Email: <a href="mailto:bico.dieubui@gmail.com">bico.dieubui@gmail.com</a></p>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+          <button class="btn-info" id="lienhe" onclick="onClickHandler(this)">Chi tiết hơn ? </button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-12">
+          <p>Address: 637H Bui Thi Diet, ap Bau Cap, Nhuan Duc Village, Cu Chi District , Ho Chi Minh City, Vietnam</p>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+          <p>Phone number: (+84) 08 3860 8728</p>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+          <p>Fax number: (+84) 08 3717 7452</p>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+          <p>Email: <a href="mailto:bico.dieubui@gmail.com">bico.dieubui@gmail.com</a></p>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+          <button class="btn-info" id="lienhe" onclick="onClickHandler(this)">More details ? </button>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+          <p>
+            COPYRIGHT &copy; BICO2020 |
+            <span><a href="https://www.facebook.com/BICOVN/"><img src="/images/facebook-logo.png" width="25px"
+                  height="25px" /></a></span>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/javascript/script.js"></script>
+  </body>
+</html>
